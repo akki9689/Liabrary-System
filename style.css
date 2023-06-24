@@ -1,0 +1,176 @@
+
+html{
+    font-size: 80%;
+    scroll-behavior: smooth;
+    
+}
+.header{
+  background-color: rgb(26, 222, 228);
+   
+    width: 100vw;
+    position: sticky;
+    top: 0px;
+    align-content: space-between;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    box-shadow: 1px 1px 1px 1px;
+   width: auto;
+   height: auto;
+   flex-wrap: wrap;
+    
+}
+.header_nav{
+    align-items: center;
+
+
+}
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 10vh;
+    list-style-type: none; 
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+.lib{
+    margin:10px;
+    align-self: center;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+li,a{
+    text-decoration: none;
+   
+}
+h3{
+    color: white;
+}
+
+.books{
+    margin-top: 20px;
+    margin: 20px 20px;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    background-image: url(pexels-guilherme-rossi-2553425.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 0vh 1vh 1vh 1vh;
+
+    
+
+   
+}
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(120, 207, 239);
+    
+    
+}
+table th,tr,td{
+    border: 1px solid rgb(121, 198, 219);
+    max-width: fit-content;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr,td{
+    text-align: center;
+    color: azure;
+}
+.form-fill {
+    
+   margin-left: auto;
+    margin-right: auto;
+   
+}
+h2{
+    background-color: rgb(36, 151, 173);
+    color: white;
+    height: 50px;
+    width: 400px;
+    margin: 5px 5px;
+    text-align: center;
+    border-radius: 20px;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(10, 9, 10);
+    
+    
+}
+button a{
+    text-decoration: none;
+    color: cyan;
+}
+h1{
+    font-size: xx-large;
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 225, 232);
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding-top: 20vh;
+    padding-left: 40%;
+    box-shadow: 0px 2px 2px 2px;
+    border-radius: 5px;
+    align-items: center;
+    
+    
+}
+input{
+    border-radius: 5px;
+  background-color:antiquewhite;
+}
+.resbut{
+width: 100%;
+color: white;
+margin-bottom: 10px;
+
+}
+/* *-+++++++++++++ */
+.form{
+padding: 2vw 7vw;
+margin: auto;
+width: fit-content;
+
+
+background-color: rgb(240, 240, 240);
+}
+#submit{
+    background-color: aqua;
+    width: 20vh;
+    margin-left: 4vh;
+}
+#submit:hover{
+    background-color: black;
+    color: azure;
+}
+input:hover{
+background-color: aquamarine;
+}
+label,input{
+    align-self: flex-start;
+    margin-left: -5vh;
+}
+li,a{
+    color:black;
+}
+a:hover{
+    color: white;
+}
